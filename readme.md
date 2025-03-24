@@ -1,63 +1,49 @@
-Projeto Angular + Spring Boot
 
-Este repositório contém um projeto full-stack utilizando Angular para o frontend e Spring Boot com JPA para o backend.
+# Projeto Full-Stack Angular + Spring Boot
 
-📂 Estrutura do Projeto
+Este repositório contém um projeto full-stack que integra o frontend em **Angular 17** com o backend em **Spring Boot** utilizando **JPA**. O banco de dados utilizado é o **H2**. A seguir, explicamos como configurar e executar cada parte do projeto.
 
-angular17crud/ - Aplicação Angular 17
+## Estrutura do Projeto
 
-spring-jpa/ - Aplicação Spring Boot com JPA e banco de dados H2
+- `angular17crud/` - Aplicação Angular 17
+- `spring-jpa/` - Aplicação Spring Boot com JPA e banco de dados H2
 
-🚀 Configuração e Execução
+## Configuração e Execução
 
-🔥 Frontend (Angular)
+### Frontend (Angular)
+1. Acesse a pasta do projeto Angular:
+   ```sh
+   cd angular17crud
+   ```
+2. Instale as dependências:
+   ```sh
+   npm install
+   ```
+3. Execute o servidor na porta 8081:
+   ```sh
+   ng serve --port 8081
+   ```
 
-Acesse a pasta do projeto Angular:
+A aplicação Angular estará disponível em `http://localhost:8081/`.
 
-cd angular17crud
+### Backend (Spring Boot + JPA)
+1. Acesse a pasta do projeto Spring Boot:
+   ```sh
+   cd spring-jpa
+   ```
+2. Certifique-se de ter o Maven instalado.
+3. Compile e execute a aplicação:
+   ```sh
+   mvn spring-boot:run
+   ```
 
-Instale as dependências:
+O backend estará rodando na porta padrão `8080` e utilizando o banco de dados **H2**.
 
-npm install
+## Tecnologias Utilizadas
+- **Frontend:** Angular 17, TypeScript, Bootstrap
+- **Backend:** Spring Boot, JPA/Hibernate
+- **Banco de Dados:** H2
+- **Ferramentas:** Maven
 
-Execute o servidor na porta 8081:
-
-ng serve --port 8081
-
-A aplicação estará disponível em http://localhost:8081/.
-
-🛠 Backend (Spring Boot + JPA)
-
-Acesse a pasta do projeto Spring Boot:
-
-cd spring-jpa
-
-Certifique-se de ter o Maven instalado.
-
-Compile e execute a aplicação:
-
-mvn spring-boot:run
-
-O backend estará rodando na porta padrão 8080 e utilizando o banco de dados H2.
-
-📌 Tecnologias Utilizadas
-
-Angular 17
-
-TypeScript
-
-Bootstrap
-
-Spring Boot
-
-JPA/Hibernate
-
-Maven
-
-Banco de dados H2
-
-📜 Licença
-
+## Licença
 Este projeto é distribuído sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
-
-Se tiver dúvidas ou sugestões, sinta-se à vontade para contribuir! 🚀
