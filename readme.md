@@ -1,7 +1,7 @@
 
 # Projeto Full-Stack Angular + Spring Boot
 
-Este repositório contém um projeto full-stack que integra o frontend em **Angular 17** com o backend em **Spring Boot** utilizando **JPA**. O banco de dados utilizado é o **H2**. A seguir, explicamos como configurar e executar cada parte do projeto.
+Este repositório contém um projeto full-stack que integra o frontend em **Angular 17** com o backend em **Spring Boot** utilizando **JPA**. O banco de dados utilizado é o **H2**. A seguir, explico como configurar e executar cada parte do projeto.
 
 ## Estrutura do Projeto
 
@@ -45,5 +45,3 @@ O backend estará rodando na porta padrão `8080` e utilizando o banco de dados 
 - **Banco de Dados:** H2
 - **Ferramentas:** Maven
 
-## Licença
-Este projeto é distribuído sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
